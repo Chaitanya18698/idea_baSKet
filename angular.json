@@ -35,10 +35,16 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/pace.min.css",
+              "src/assets/plugins/metismenu/metisMenu.min.css",
+              "src/assets/plugins/metismenu/mm-vertical.css",
+              "src/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css",
+              "src/assets/css/bootstrap-extended.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/pace.min.js"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
@@ -101,9 +107,17 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/pace.min.css",
+              "src/assets/plugins/metismenu/metisMenu.min.css",
+              "src/assets/plugins/metismenu/mm-vertical.css",
+              "src/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css",
+              "src/assets/css/bootstrap-extended.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/pace.min.js"
+            ]
           }
         }
       }
